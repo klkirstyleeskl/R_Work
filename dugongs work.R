@@ -12,5 +12,5 @@ lines(xpred,ypred,col="darkgreen")
 cbind(coef(MMmodel), confint(MMmodel))
 #fit the confidence interval curves
 curve(3.378036 * x/(1+1.275503 * x), from = 0, to = 31, col = "red",add = T, lty = "dashed")
-                                             curve(5.311953 * x/(1+2.084315 * x), from = 0, to = 31, col = "blue",add = T, lty = "dashed")
+curve(5.311953 * x/(1+2.084315 * x), from = 0, to = 31, col = "blue",add = T, lty = "dashed")
   
